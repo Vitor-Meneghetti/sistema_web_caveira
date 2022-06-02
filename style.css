@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{
+	background-image: url("imagem/caveira.png");
+	background-size: 100%; /*ajusta corretamente no tamanho da tela*/ 
+	color: white;
+
+}
+
+h1{
+	font-size: 50px;
+}
+
+input{
+	display: block; /*serve para deixa um campo embaixo do outro*/
+	height: 50px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border: 1px solid black;
+	font-size: 16pt; /*tamanho da letra*/
+	padding: 10px 20px;
+	background-color: rgba(138,43,226,0.5);/*o que faz a parte dos espaços de digitação ficarem transparentes*/
+	color: white;
+	outline: none;/*esse é o contorno azul ao clinica no campo*/
+
+}
+
+div#corpo-form{
+	width: 420px;
+	margin: 130px auto 0px auto;/*centralização da caixa de texto*/
+}
+
+
+div#corpo-form h1{
+	text-align: center;
+	padding: 8px 20px;
+	color: black;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	display: line;
+	/*text-align: center;*/
+
+}
+
+a:hover{
+	text-decoration: underline;
+
+}
+
+input[type=submit]{
+	background-image: linear-gradient(to right, #6c23ba, black, white);
+	border: none;
+	cursor: pointer; /*aparece a mão quando passa o mouse por cima do botão de acessar*/
+
+}
+
+::-webkit-input-placeholder {
+   color: white;
+   text-align: center;
+}
+
+:-moz-placeholder { /*mudar a cor do placeholder (que são as letras dentro do campo para preencher - Usuário) */
+   color: white;  
+   text-align: center;
+}
+
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;
+   text-align: center;    
+}
+
+:-ms-input-placeholder {  
+   color: white;
+   text-align: center;  
+}
+
+
+div#msg_sucesso{
+	width: 370px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(50, 205, 50, 0.3);
+	border: 2px solid rgb(34, 139, 34);
+}
+
+div.msg_erro{
+	width: 370px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(255, 165, 0, 0.3);
+	border: 2px solid rgb(165,42,42);
+
+
+}
